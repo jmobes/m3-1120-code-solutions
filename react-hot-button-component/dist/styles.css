@@ -1,0 +1,42 @@
+:root {
+  --color1: rgb(64, 0, 119);
+  --color2: rgb(114, 62, 169);
+  --color3: rgb(243, 86, 92);
+  --color4: rgb(255, 177, 96);
+  --color5: rgb(248, 255, 0);
+  --color6: rgb(255, 255, 255);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button {
+  font-size: 3rem;
+  padding: 0.5em 1em;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.count {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
