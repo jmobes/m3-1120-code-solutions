@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.password__label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.password {
+  font-size: 2rem;
+  outline: none;
+  border: 2px solid #000;
+}
+
+.message {
+  font-size: 1.5rem;
+  color: rgb(193, 3, 3);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.flex-ctn {
+  display: flex;
+  align-items: center;
+}
