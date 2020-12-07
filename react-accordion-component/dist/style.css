@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.accordion > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.html,
+.css,
+.js {
+  width: 100%;
+}
+
+.headerHTML,
+.headerCSS,
+.headerJS,
+.info {
+  border: 3px solid black;
+  padding: 1rem;
+}
+
+.headerHTML,
+.headerCSS,
+.headerJS {
+  background: rgb(223, 218, 218);
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 0.25rem;
+  background: #fff;
+}
+
+.hidden {
+  display: none;
+}
