@@ -1,0 +1,20 @@
+            List of relations
+ Schema |     Name     | Type  |  Owner   
+--------+--------------+-------+----------
+ public | actors       | table | postgres
+ public | addresses    | table | postgres
+ public | castMembers  | table | postgres
+ public | categories   | table | postgres
+ public | cities       | table | postgres
+ public | countries    | table | postgres
+ public | customers    | table | postgres
+ public | filmCategory | table | postgres
+ public | films        | table | postgres
+ public | inventory    | table | postgres
+ public | languages    | table | postgres
+ public | payments     | table | postgres
+ public | rentals      | table | postgres
+ public | staff        | table | postgres
+ public | stores       | table | postgres
+(15 rows)
+
