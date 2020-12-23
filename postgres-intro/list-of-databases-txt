@@ -1,0 +1,10 @@
+                             List of databases
+   Name    |  Owner   | Encoding | Collate | Ctype |   Access privileges   
+-----------+----------+----------+---------+-------+-----------------------
+ postgres  | postgres | UTF8     | C       | C     | 
+ template0 | postgres | UTF8     | C       | C     | =c/postgres          +
+           |          |          |         |       | postgres=CTc/postgres
+ template1 | postgres | UTF8     | C       | C     | =c/postgres          +
+           |          |          |         |       | postgres=CTc/postgres
+(3 rows)
+
