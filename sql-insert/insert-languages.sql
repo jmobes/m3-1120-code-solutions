@@ -1,3 +1,3 @@
 INSERT INTO "languages" ("name")
-VALUES ('JavaScript')
+VALUES ('HTML'),('CSS'),('JavaScript')
 RETURNING *;
